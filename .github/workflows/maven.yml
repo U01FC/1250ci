@@ -16,7 +16,7 @@ jobs:
     steps:
 
     - name: Debug - List Repository Files
-      run: "ls -R"
+      run: "ls -a"
 
     - name: Show Working Directory
       run: "pwd"
